@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            background-color:beige; 
+            padding: 10px;
+        }
+            #ig{
+                background-color: green;
+                color: white;
+            }
+        
+    </style>
 </head>
-
 <body>
-    <h1>Attendance Sheet</h1>
-    <hr>
-    <table border="4">
-    <tr >
-        <td>Sr no.</td>
-        <td> Name </td>
-        <td>date</td>
-        <td> Attendance</td>
-    </tr>
-    <tr> 
-        <td>1</td>
-        <td> Riya</td>
-        <td> 1/08/2026</td>
-        <td> <b>Present</b></td>
-    </tr>
-    <tr> 
-        <td>2</td>
-        <td>Shriya</td>
-        <td>2/8/2026</td>
-        <td><b>Present</b></td>
-    </tr>
-    <tr>
-        <td> 3</td>
-        <td>Priya</td>
-        <td>3/8/2026</td>
-        <td><b>Absent</b></td>
-    </tr>
-    <tr>
-        <td> 4</td>
-        <td>Prisha</td>
-        <td>4/8/2026</td>
-        <td><b>Absent</b></td>  
-     </tr>
-                                                                                                                                                                                                                                                        
-   
+    <div>
+        <form>
+            <h1>Contact Us</h1>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="Email">
+            <br><br>
+            <label for="message">Message:</label>
+            <textarea name="Message" id="Message"></textarea>
+            <br><br>
+            <input id="ig" type="submit" >
+            
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
